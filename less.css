@@ -1,0 +1,47 @@
+body{
+    background-color:#f1f6f7;
+}
+h1{
+color:#00856f;
+text-align:center;
+font-family:cursive;
+}
+img{
+    width:300px;
+    height:300px;
+    border-radius: 30px;
+}
+.divimg{
+    display:inline-block;
+    text-align:center;
+    padding:30px;
+}
+img:hover {
+    opacity: 0.7;
+}
+.para{
+    text-align:center;
+}
+.infoh{
+    text-align:center;
+    font-family:cursive;
+    color:#00856f;
+}
+th{
+    color:#00856f;
+    font-family:cursive;
+}
+h3{
+    text-align: center;
+    color:#00856f;
+    font-family:cursive;
+}
+.close{
+    text-align: right;
+    margin:auto;
+}
+span{
+    color:#00856f;
+    border-radius:10px;
+    height: 40px;
+}

@@ -1,0 +1,62 @@
+.maindiv{
+    margin:70px;
+    border-style: ridge;
+    border-color:2px #00856f;
+}
+.heading{
+    text-align: center;
+    color: #00856f;
+}
+.hp{
+    text-align: center;
+    font-size: 15px;
+}
+.quote{
+    font-size: 20px;
+    font-weight: bold;
+}
+.collapsible {
+    background-color: #f1f7f6;
+    color:Black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    /* border-style: ridge; */
+  }
+  
+.active, .collapsible:hover {
+    background-color:#00856f;
+  }
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+.sym{
+    padding:10px;
+}
+.pre{
+    padding:10px;
+}
+.vit{
+    padding:10px;
+}
+.vitc{
+    font-weight:bold;
+}
+.but{
+    border-radius: 20px;
+    background-color: #00856f;
+    color:white;
+    height:30px;
+    width:80px;
+    margin:10px;
+}
+.hh{
+    display:inline-block;
+}

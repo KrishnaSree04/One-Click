@@ -1,0 +1,39 @@
+body{
+    background-color: #f1f7f6;
+}
+h1{
+    color:#00856f;
+    font-family:cursive;
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    color:green;
+    font-size: 20px;
+}
+h3{
+    text-align:center;
+    color:#00856f;
+    font-family:cursive;
+}
+.imp{
+    color:black;
+    
+}
+th{
+    color:#00856f;
+    font-family:cursive;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+}
+.imm{
+    display:inline-block;
+    text-align:center;
+    padding:30px;
+}
+img:hover {
+    opacity: 0.7;
+  }

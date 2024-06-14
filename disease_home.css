@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f7f6;
+    font-family:Proxima Nova,sans-serif;
+}
+
+
+p{
+    color: rgb(46, 44, 44);
+}
+nav{
+    display: flex;
+    background-color: #00856f;
+    position: sticky;
+    top: 0;
+    /* justify-content: space-between; */
+    padding:4px 64px;
+
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+.container-fluid-left{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.logo{
+    height: 56px;
+    margin-right: 45px;
+}
+.container-fluid-right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    display: inline-block;
+}
+.login button,.signup button{
+    width: 75.15px;
+    height: 36.8px;
+    border: 0;
+    outline: 0;
+    padding: 8px 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.login button{
+    background-color: #ffc501;
+    color: #ffff;
+}
+.signup button{
+    background-color: #00856f;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+
+/* Interchange color and styles on hover login and signup button */
+.login button:hover {
+    background-color: #ffff;
+    color: #ffc501;
+    /* border: 3px solid #ffff; */
+  }
+  
+  .signup button:hover {
+    background-color: #ffff;
+    color: #00856f;
+    
+  }
+
+.home {
+    display: flex;
+    align-items: center;
+
+    margin-right:20px;
+    margin-left: 40px;
+    justify-content: flex-start;
+    padding: 30px 0px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    column-gap: 5px;
+}
+.im1 {
+    padding: 40px;
+    border-radius: 50%;
+}
+
+
+.heading {
+    /* font-size: 20px; */
+    width: 30%;
+    margin-left: 200px;
+    padding: 20px;
+    border: solid 15px rgb(164, 160, 160);
+} 
+/* scrollig effect for website after removing grid for home */
+ section{
+    min-height: calc(100vh - 56px); /* Subtract the height of the navigation bar */
+    block-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/27a5188a93975f6bacc5e721/dcsmin.jpg);
+}
+
+.h11 {
+    font-size: 70px;
+    font-family: Domaine Display,Times New Roman,sans-serif;
+    font-weight: 70;
+    color: #00856f;
+    display:inline-block;
+    margin-bottom: 35px;
+    /* padding:60px; */
+}
+
+.heading p{
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    line-height: 1.5;
+    font-family: 'Open Sans',sans-serif
+}
+
+.try_now{
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    background: #00856f;
+    color: white;
+    border: none;
+    /* outline: none; */
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 25%;
+} 
+
+.try_now:hover {
+    background-color: #ffff;
+    color: #00856f;
+    border: solid 3px #00856f;
+    
+  }
